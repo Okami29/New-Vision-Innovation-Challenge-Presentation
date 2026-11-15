@@ -164,8 +164,8 @@ export async function exportPresentationPptx(): Promise<void> {
   pptx.title = 'NEW VISION INNOVATION CHALLENGE';
 
   const [logoColor, logoWhite] = await Promise.all([
-    svgUrlToPngBase64('/brand/nvu-logo.svg'),
-    svgUrlToPngBase64('/brand/nvu-logo-white.svg'),
+    svgUrlToPngBase64(`${import.meta.env.BASE_URL}brand/nvu-logo.svg`),
+    svgUrlToPngBase64(`${import.meta.env.BASE_URL}brand/nvu-logo-white.svg`),
   ]);
 
   // ---------------- SLIDE 1: COVER ----------------

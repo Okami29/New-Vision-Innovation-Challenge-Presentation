@@ -105,7 +105,7 @@ const SlideHeader: React.FC<{
     </div>
     <div className="shrink-0 pt-0.5">
       <img
-        src={dark ? '/brand/nvu-logo-white.svg' : '/brand/nvu-logo.svg'}
+        src={`${import.meta.env.BASE_URL}brand/nvu-logo-${dark ? 'white' : ''}.svg`}
         alt="New Vision University"
         className="h-[40px] w-auto object-contain"
         referrerPolicy="no-referrer"
@@ -156,7 +156,7 @@ const SlideBody: React.FC<{ slideIndex: number }> = ({ slideIndex }) => {
 
         <div className="relative z-10 flex items-center justify-between px-16 pt-12">
           <img
-            src="/brand/nvu-logo-white.svg"
+            src={`${import.meta.env.BASE_URL}brand/nvu-logo-white.svg`}
             alt="New Vision University"
             className="h-[54px] w-auto object-contain"
             referrerPolicy="no-referrer"

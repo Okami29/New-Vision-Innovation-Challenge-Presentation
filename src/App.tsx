@@ -163,7 +163,7 @@ export default function App() {
             className="flex items-center gap-3.5 text-left whitespace-nowrap shrink-0 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#00616F] rounded"
           >
             <img
-              src="/brand/nvu-logo.svg"
+              src={`${import.meta.env.BASE_URL}brand/nvu-logo.svg`}
               alt="New Vision University"
               className="h-7 w-auto object-contain shrink-0"
               referrerPolicy="no-referrer"
