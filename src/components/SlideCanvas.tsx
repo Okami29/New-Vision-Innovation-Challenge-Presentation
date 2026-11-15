@@ -105,7 +105,7 @@ const SlideHeader: React.FC<{
     </div>
     <div className="shrink-0 pt-0.5">
       <img
-        src={`${import.meta.env.BASE_URL}brand/nvu-logo-${dark ? 'white' : ''}.svg`}
+        src={`${import.meta.env.BASE_URL}brand/nvu-logo${dark ? '-white' : ''}.svg`}
         alt="New Vision University"
         className="h-[40px] w-auto object-contain"
         referrerPolicy="no-referrer"
