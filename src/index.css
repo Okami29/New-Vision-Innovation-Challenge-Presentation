@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans Georgian", system-ui, -apple-system, sans-serif;
+  --font-serif: "Noto Serif Georgian", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-nvu-navy: #002A41;
+  --color-nvu-teal: #00616F;
+  --color-nvu-paper: #F7F5F0;
+  --color-nvu-ivory: #FBF9F5;
+  --color-nvu-bronze: #8C6239;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    font-feature-settings: "kern" 1;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Print / PDF Deck Export Layout */
+@media print {
+  @page {
+    size: 16in 9in;
+    margin: 0;
+  }
+
+  body {
+    background: #ffffff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-deck-only {
+    display: block !important;
+  }
+
+  .print-slide-page {
+    width: 16in !important;
+    height: 9in !important;
+    page-break-after: always !important;
+    break-after: page !important;
+    overflow: hidden !important;
+    position: relative !important;
+  }
+
+  .print-slide-page:last-child {
+    page-break-after: auto !important;
+    break-after: auto !important;
+  }
+}
