@@ -59,7 +59,7 @@ export const PRESENTATION_META = {
   dateLabel: '16 ნოემბერი, 2026 წელი · 16:00 საათი',
   presenterName: 'ანრი ყუფარაძე',
   initiators: 'ანრი ყუფარაძე და ნატა სულაქველიძე',
-  audience: 'New Vision University-ის მმართველი საბჭო',
+  audience: 'New Vision University',
   totalDurationSec: 420,
   totalDurationLabel: '07:00',
 };

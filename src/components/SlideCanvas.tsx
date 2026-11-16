@@ -116,7 +116,7 @@ const SlideHeader: React.FC<{
 
 const SlideFooter: React.FC<{ dark?: boolean; note?: string }> = ({
   dark = false,
-  note = 'New Vision University · სტრატეგიული წარდგენა მმართველი საბჭოსთვის',
+  note = 'New Vision University · New Vision Innovation Challenge',
 }) => (
   <div
     className={`shrink-0 h-[40px] px-14 flex items-center justify-between text-[11px] border-t ${
@@ -188,7 +188,7 @@ const SlideBody: React.FC<{ slideIndex: number }> = ({ slideIndex }) => {
 
         <div className="relative z-10 px-16 py-7 border-t border-white/15 bg-[#002235] flex items-center justify-between text-[13px]">
           <div className="text-white/90 font-medium">
-            New Vision University · მმართველი საბჭოსთვის წარმოდგენილი სტრატეგიული კონცეფცია
+            New Vision University · სტრატეგიული ინიციატივის კონცეფცია
           </div>
           <div className="text-right">
             <div className="text-[11px] uppercase tracking-[0.12em] text-[#89C4CC] mb-0.5">

@@ -458,7 +458,7 @@ export default function App() {
                 New Vision Innovation Challenge · {PRESENTATION_META.dateLabel}
               </div>
               <div>
-                New Vision University-ის მმართველი საბჭოსთვის
+                New Vision University
               </div>
             </div>
           </footer>

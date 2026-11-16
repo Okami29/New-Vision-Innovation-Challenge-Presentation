@@ -129,7 +129,7 @@ function addStandardChrome(
     line: { color: dark ? '264B60' : BORDER, width: 0.5 },
   });
 
-  slide.addText('New Vision University · სტრატეგიული წარდგენა მმართველი საბჭოსთვის', {
+  slide.addText('New Vision University · New Vision Innovation Challenge', {
     x: 0.55,
     y: 5.33,
     w: 5.2,
@@ -256,7 +256,7 @@ export async function exportPresentationPptx(): Promise<void> {
     });
 
     slide.addText(
-      'New Vision University · მმართველი საბჭოსთვის წარმოდგენილი სტრატეგიული კონცეფცია',
+      'New Vision University · სტრატეგიული ინიციატივის კონცეფცია',
       {
         x: 0.65,
         y: 5.05,
